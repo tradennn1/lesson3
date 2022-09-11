@@ -9,13 +9,13 @@ public class Main {
         double allNumber = 0.0;
         boolean check = false;
 
-        for (double cast : numbers) {
-            if (cast < 0) {
+        for (double i : numbers) {
+            if (i < 0) {
                 check = true;
-            } else if (cast > 0 && check) {
+            } else if (i > 0 && check) {
                 numberCount++;
-                allNumber += cast;
-                System.out.println(cast);
+                allNumber += i;
+                System.out.println(i);
             }
         }
 
